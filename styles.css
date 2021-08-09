@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Crete+Round:400,400italic);
+
+/* Positioning */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+header {
+    text-align: center;
+}
+
+header .right {
+    display: flex;
+    justify-content: center;
+}
+
+header .twitter-share-button {
+    padding: 0px 15px 0px 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+/* Positioning article */
+.book {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.box-1 {
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.box-2 {
+    width: 70%;
+    height: auto;
+    margin: 0px 20px 0px 20px;
+}
+
+img.small {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.link-center {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Background */
+body, header, article, footer {
+    background-color: #FDF8F1;
+}
+
+/* Text styles */
+body, header, article, footer {
+    color: #3F3E3C;
+}
+
+h1, h2, h3, h4, h5, h6, header, footer {
+    font-family: "Crete Round", serif;
+}
+h1 {
+    font-size: 44px;
+    color: #78281F;
+}
+h3 {
+    color: #4D5656;
+}
+p {
+    font-size: 17px;
+    color: #5F6A6A;
+}
+.quote {
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid #FCFCFC;
+    border-radius: 10px;
+    color: #4D5656;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-style: italic;
+} 
